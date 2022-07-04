@@ -76,7 +76,6 @@ function App() {
         User info
         <pre>{sampleResponse}</pre>
       </div>
-      setPostResponse
       <div>
         User info
         <pre>{postResponse}</pre>
