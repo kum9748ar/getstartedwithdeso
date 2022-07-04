@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div>
+      <h1>My Deso App</h1>
       <button
         onClick={async () => {
           const user = await deso.identity.login();
@@ -77,7 +78,7 @@ function App() {
         <pre>{sampleResponse}</pre>
       </div>
       <div>
-        User info
+        Post info
         <pre>{postResponse}</pre>
       </div>
 
